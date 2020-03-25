@@ -1,0 +1,260 @@
+ol,
+ul {
+  list-style: none outside none;
+}
+dd,
+dl,
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.view .topTool .row .login {
+  padding-top: 10px;
+  margin-bottom: 40px;
+  height: 50px;
+  line-height: 50px;
+  border-right: none;
+  border-top: none;
+  margin-left: 100px;
+}
+.view .col-md-9 .video {
+  margin-top: 70px;
+  border-radius: 18px;
+  border: 2px solid #b4a0a0;
+}
+.view .col-md-9 .video h5 {
+  color: #5A323C;
+  line-height: 31px;
+  font-size: 20px;
+}
+.view .col-md-9 .video .video-1 {
+  position: relative;
+  border-radius: 11px;
+  border: 10px solid #c6544c;
+}
+.view .col-md-9 .video .video-1 .video-share {
+  position: absolute;
+  right: -10px;
+  top: -46px;
+  width: 250px;
+  height: 46px;
+  background-color: #c6544c;
+  border-radius: 12px 12px 0 0;
+  padding: 0 21px;
+  display: flex;
+  display: -webkit-flex;
+  /*Safari*/
+  justify-content: space-between;
+  align-items: center;
+  /*垂直对齐方式*/
+}
+.view .col-md-9 .video .video-1 .video-share span {
+  display: flex;
+  text-align: center;
+  padding-right: 16px;
+  font-size: 28px;
+}
+.view .col-md-9 .video .video-1 video {
+  width: 100%;
+  height: 650px;
+  display: block;
+  background-color: #000;
+}
+.view .col-md-3 .container-buttom {
+  padding: 18px;
+  width: 360px;
+  height: 940px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 2px solid #b4a0a0;
+}
+.view .col-md-3 .container-buttom .container-buttom-title {
+  letter-spacing: 2px;
+  height: 36px;
+  line-height: 30px;
+  width: 269px;
+  margin: -36px auto 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  background: #c6544c;
+  border-radius: 12px;
+  border: 2px solid #776969;
+  position: relative;
+  z-index: 8;
+}
+.view .col-md-3 .container-buttom .text-name .text-name-img {
+  float: left;
+  margin: 48px 0 30px;
+}
+.view .col-md-3 .container-buttom .text-name .text-name-img img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.view .col-md-3 .container-buttom .text-name .text-name-text {
+  height: 38px;
+  line-height: 17px;
+  margin: -13px 0px 0 90px;
+  padding-top: 30px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #5A323C;
+}
+.view .col-md-3 .container-buttom .clear {
+  clear: both;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-title h5 {
+  margin: 10px auto;
+  height: 36px;
+  line-height: 30px;
+  text-align: center;
+  width: 70%;
+  color: #fff;
+  background: #c6544c;
+  border-radius: 12px;
+  border: 2px solid #776969;
+  z-index: 8;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-text {
+  width: 318px;
+  height: 40px;
+  font-size: 14px;
+  font-family: Helvetica;
+  color: #5a323c;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-img li:first-child {
+  margin-right: 18px;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-img li {
+  float: left;
+  margin: 20px 0 0;
+  border: 2px solid #b4a0a0;
+  border-radius: 6px;
+  padding: 6px 6px 24px;
+  position: relative;
+  width: 47%;
+  text-align: center;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-img li .discuss-img-bor {
+  position: relative;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-img li .discuss-img-bor .discuss-img-bor-one {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 64px;
+  padding: 0 2px;
+  display: table;
+  background-image: url('../images/timg\ \(1\).jpg');
+  padding-top: 20px;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-img li .discuss-img-bor .discuss-img-bor-one .bor-one {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-img li .discuss-img-bor .discuss-img-bor-two {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-img li .discuss-img-bor .discuss-img-bor-two .discuss-two-one {
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 700;
+  padding: 0 5px;
+  width: 76%;
+  margin: 0 auto;
+  line-height: 36px;
+  background: #c6544c;
+  color: #fff;
+  border-radius: 20px;
+  outline: none;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-img li .discuss-img-bor .discuss-img-bor-two .discuss-two-two {
+  margin: 10px auto;
+  font-weight: bolder;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-img li .discuss-img-bor .discuss-img-bor-two .discuss-two-two span {
+  color: #5a323c;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-advert {
+  width: 312px;
+  height: 58px;
+  margin-top: 60px;
+}
+.view .col-md-3 .container-buttom .discuss .discuss-advert img {
+  width: 100%;
+}
+.view .col-md-3 .container-buttom .discuss .recruit {
+  margin: 70px 0 0 28px;
+}
+.view .col-md-3 .container-buttom .discuss .recruit .recruit-title {
+  text-align: center;
+  width: 269px;
+  height: 36px;
+  line-height: 36px;
+  background: #f8f6f3;
+  border-radius: 12px;
+  border: 2px solid #776969;
+}
+.view .col-md-3 .container-buttom .discuss .recruit .recruit-title span {
+  color: #C6544C;
+  font-size: 18px;
+}
+.view .col-md-3 .container-buttom .discuss .recruit .recruit-buttom {
+  margin-top: 15px;
+}
+.view .col-md-3 .container-buttom .discuss .recruit .recruit-buttom span {
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: #5a323c;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.view .col-md-3 .container-buttom .discuss .recruit .recruit-buttom .recruit-buttom-a {
+  display: block;
+  width: 103px;
+  height: 36px;
+  line-height: 36px;
+  margin: 20px auto;
+  font-size: 14px;
+  text-align: center;
+  background: #c6544c;
+  border-radius: 20px;
+  color: white;
+}
+.view .col-md-3 .container-buttom .discuss .code {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid #F0F3F5;
+}
+.view .col-md-3 .container-buttom .discuss .code .code-text {
+  text-align: center;
+}
+.view .col-md-3 .container-buttom .discuss .code img {
+  float: left;
+  margin: 15px 0 0 44px;
+  width: 25%;
+}
+.view .col-md-3 .container-buttom .discuss .code .code-weixihao {
+  float: right;
+  margin: 30px 40px 0 0;
+}
+.view .col-md-3 .clear:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}

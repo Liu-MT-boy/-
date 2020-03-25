@@ -1,0 +1,350 @@
+// 头部部分
+// .topTool {
+//     padding-top: 10px;
+//     margin-bottom: 40px;
+//     .row {
+//         text-align: right;
+//         // color: @fontColor;s
+//         >div {
+//             height: 30px;
+//             line-height: 50px;
+//             // border: 1px solid #000;
+//             border-right: none;
+//             border-top: none;
+//         }
+//     }
+// }
+
+ol,
+ul {
+    list-style: none outside none;
+}
+
+dd,
+dl,
+li,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+// 正文左边部分
+.view {
+    .topTool {
+        .row {
+
+            // 个人信息部分
+            .login {
+                padding-top: 10px;
+                margin-bottom: 40px;
+                height: 50px;
+                line-height: 50px;
+                border-right: none;
+                border-top: none;
+                margin-left: 100px;
+            }
+        }
+    }
+
+    // background-image:url('../images/beijing.jpg') ;
+    .col-md-9 {
+
+        // margin-top: 5px;
+
+        // 视频部分
+        .video {
+            margin-top: 70px;
+            // width: 827px;
+            // height: 650px;
+            // background:rgba(255,252,245,1);
+            border-radius: 18px;
+            border: 2px solid rgba(180, 160, 160, 1);
+
+            h5 {
+                color: #5A323C;
+                line-height: 31px;
+                font-size: 20px;
+            }
+
+            .video-1 {
+                position: relative;
+                border-radius: 11px;
+                border: 10px solid #c6544c;
+
+                // margin-top: 10px;
+                //  分享框 CSS
+                .video-share {
+                    position: absolute;
+                    right: -10px;
+                    top: -46px;
+                    width: 250px;
+                    height: 46px;
+                    background-color: #c6544c;
+                    border-radius: 12px 12px 0 0;
+                    padding: 0 21px; //分享框大小
+                    display: flex;
+                    display: -webkit-flex;
+                    /*Safari*/
+                    justify-content: space-between;
+                    align-items: center;
+
+                    /*垂直对齐方式*/
+                    span {
+                        display: flex;
+                        text-align: center;
+                        padding-right: 16px;
+                        font-size: 28px;
+                    }
+                }
+
+                video {
+                    width: 100%;
+                    height: 650px;
+                    display: block;
+                    background-color: #000;
+                }
+            }
+        }
+
+    }
+
+    // 正文右边部分
+    .col-md-3 {
+
+        // 右边正文部分
+        .container-buttom {
+            padding: 18px;
+            width: 360px;
+            height: 940px;
+            background: rgba(255, 255, 255, 1);
+            border-radius: 18px;
+            border: 2px solid rgba(180, 160, 160, 1);
+
+            // title部分
+            .container-buttom-title {
+                letter-spacing: 2px;
+                height: 36px;
+                line-height: 30px;
+                width: 269px;
+                margin: -36px auto 10px;
+                text-align: center;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 700;
+                background: rgba(198, 84, 76, 1);
+                border-radius: 12px;
+                border: 2px solid rgba(119, 105, 105, 1);
+                position: relative;
+                z-index: 8;
+            }
+
+            // 人物介绍部分
+            .text-name {
+                .text-name-img {
+                    float: left;
+                    margin: 48px 0 30px;
+
+                    img {
+                        height: 60px;
+                        width: 60px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .text-name-text {
+                    height: 38px;
+                    line-height: 17px;
+                    margin: -13px 0px 0 90px;
+                    padding-top: 30px;
+                    line-height: 25px;
+                    font-size: 14px;
+                    color: #5A323C;
+                }
+            }
+
+            .clear {
+                clear: both;
+            }
+
+            // 讨论话题
+            .discuss {
+
+                // 讨论区主题
+                .discuss-title {
+                    h5 {
+                        margin: 10px auto;
+                        height: 36px;
+                        line-height: 30px;
+                        text-align: center;
+                        width: 70%;
+                        color: #fff;
+                        background: #c6544c;
+                        border-radius: 12px;
+                        border: 2px solid #776969;
+                        z-index: 8;
+                    }
+                }
+
+                // 文字部分
+                .discuss-text {
+                    width: 318px;
+                    height: 40px;
+                    font-size: 14px;
+                    font-family: Helvetica;
+                    color: rgba(90, 50, 60, 1);
+                    line-height: 20px;
+                    letter-spacing: 1px;
+                }
+
+                // 图片部分
+                .discuss-img {
+                    li:first-child {
+                        margin-right: 18px;
+                    }
+                    li {
+                        float: left;
+                        margin: 20px 0 0;
+                        border: 2px solid #b4a0a0;
+                        border-radius: 6px;
+                        padding: 6px 6px 24px;
+                        position: relative;
+                        width: 47%;
+                        text-align: center;
+
+                        .discuss-img-bor {
+                            position: relative;
+
+                            .discuss-img-bor-one {
+                                color: #fff;
+                                font-weight: 700;
+                                letter-spacing: 1px;
+                                width: 100%;
+                                height: 64px;
+                                padding: 0 2px;
+                                display: table;
+                                background-image: url('../images/timg\ \(1\).jpg');
+                                padding-top: 20px;
+
+                                .bor-one {
+                                    color: #fff;
+                                    font-weight: 700;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            .discuss-img-bor-two {
+                                position: absolute;
+                                top: 70px;
+                                left: 0;
+                                width: 100%;
+                                height: 70px;
+
+                                .discuss-two-one {
+                                    display: block;
+                                    cursor: pointer;
+                                    text-align: center;
+                                    font-weight: 700;
+                                    padding: 0 5px;
+                                    width: 76%;
+                                    margin: 0 auto;
+                                    line-height: 36px;
+                                    background: #c6544c;
+                                    color: #fff;
+                                    border-radius: 20px;
+                                    outline: none;
+                                }
+                                .discuss-two-two {
+                                    margin: 10px auto;
+                                    font-weight: bolder;
+                                    span {
+                                        color: #5a323c;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // 广告
+                .discuss-advert {
+                    width: 312px;
+                    height: 58px;
+                    margin-top: 60px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                // 招募
+                .recruit {
+                    margin: 70px 0 0 28px;
+                    // 招募头部
+                    .recruit-title {
+                        text-align: center;
+                        width:269px;
+                        height:36px;
+                        line-height: 36px;
+                        background:rgba(248,246,243,1);
+                        border-radius:12px;
+                        border:2px solid rgba(119,105,105,1);
+                        span {
+                            color: #C6544C;
+                            font-size: 18px;
+                        }
+                    }
+                    // 招募内容
+                    .recruit-buttom {
+                        margin-top: 15px;
+                        span {
+                            font-size:14px;
+                            font-family:MicrosoftYaHei;
+                            color:rgba(90,50,60,1);
+                            line-height:20px;
+                            letter-spacing:1px;
+                        }
+                        .recruit-buttom-a {
+                            display: block;
+                            width:103px;
+                            height:36px;
+                            line-height: 36px;
+                            margin: 20px auto;
+                            font-size: 14px;
+                            text-align: center;
+                            background:rgba(198,84,76,1);
+                            border-radius:20px;
+                            color: white;
+                        }
+                    }
+                }
+                // 二维码
+                .code {
+                    margin-top: 25px;
+                    padding-top: 15px;
+                    border-top: 1px solid #F0F3F5;
+                    .code-text {
+                        text-align: center;
+                    }
+                    img {
+                        float: left;
+                        margin: 15px 0 0 44px;
+                        width: 25%;
+                    }
+                    .code-weixihao{
+                        float: right;
+                        margin: 30px 40px 0 0;
+                    }
+                }
+            }
+        }
+
+        // 清除浮动
+        .clear:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+    }
+}
+
+// 视频部分
